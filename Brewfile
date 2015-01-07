@@ -1,36 +1,37 @@
-tap phinze/cask
-install brew-cask
 
+tap homebrew/dupes
+tap phinze/homebrew-cask
+install brew-cask
+tap homebrew/versions
 install apple-gcc42
 install cmake
 install cscope
 install ctags
 install curl
-install drip
-install entr
-install gettext
-link -f gettext
+install gh
 install git
 install git-extras
+install git-flow
+install gettext
+link -f gettext
+install tree
 install htop-osx
-install hub
+install vim
 install imagemagick
 install libxml2
 install macvim
-install memcached
-install mongodb
+install docker
 install mysql
 install neo4j
 install nginx
 install node
+install docker
 install openssl
 install phantomjs
 install postgresql
-
 install rbenv
 install rbenv-gem-rehash
 install rbenv-default-gems
-
 install readline
 install reattach-to-user-namespace
 install redis
@@ -43,6 +44,6 @@ install tree
 install wget
 install youtube-dl
 install yuicompressor
+install xz
 install z
 install zsh
-install zsh-completions
